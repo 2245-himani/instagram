@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to instagram, _id_name__11"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_20sdp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We'll add the email and phone number from _id_name__ to account _id_name__. you can update this info anytime in settings, or enter new info now."
+            android:textSize="@dimen/_12sdp"
+            android:gravity="center"
+            android:layout_margin="@dimen/_10sdp"/>
+        <Button
+            android:id="@+id/btncomplatesignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complete sign up "
+            android:textSize="@dimen/_13sdp"
+            android:layout_margin="@dimen/_10sdp"/>
+        <TextView
+            android:id="@+id/txtvwaddmailorphonenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add new phone or email"
+            android:textSize="@dimen/_13sdp"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We'll add private info from _id_name__ to _id_name__. see "
+                android:textSize="@dimen/_11sdp"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terms Privacy Policy cookies policy."
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

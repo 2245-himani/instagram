@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_90sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:src="@drawable/logo"
+        android:padding="@dimen/_10sdp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="instagram"
+        android:textSize="@dimen/_20sdp"
+        android:fontFamily="@font/font"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username!"
+        android:padding="@dimen/_10sdp"
+        android:textSize="@dimen/_14sdp"
+        android:layout_margin="@dimen/_5sdp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password!"
+        android:padding="@dimen/_10sdp"
+        android:textSize="@dimen/_14sdp"
+        android:layout_margin="@dimen/_5sdp"/>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:textSize="@dimen/_17sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_40sdp"/>
+
+    <TextView
+        android:id="@+id/forgotpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="forgot password"
+        android:textColor="#8072D1"
+        android:gravity="center"
+        android:layout_margin="@dimen/_10sdp"/>
+    <TextView
+        android:id="@+id/creatnewacount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create new acount"
+        android:textColor="#8072D1"
+        android:gravity="center"
+        android:layout_margin="@dimen/_10sdp"/>
+
+</LinearLayout>
